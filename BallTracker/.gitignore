@@ -1,0 +1,10 @@
+finetune/InpaintNet_best.pt
+finetune/InpaintNet_cur.pt
+finetune/TrackNet_best.pt
+finetune/TrackNet_cur.pt
+ckpts/
+matches/
+__pycache__/
+outputs/
+
+*.pyc

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: hmr2
+Version: 0.0.0
+Summary: HMR2 as a package
+License-File: LICENSE.md
+Requires-Dist: gdown
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: pytorch-lightning
+Requires-Dist: smplx==0.1.28
+Requires-Dist: pyrender
+Requires-Dist: opencv-python
+Requires-Dist: yacs
+Requires-Dist: scikit-image
+Requires-Dist: einops
+Requires-Dist: timm
+Requires-Dist: webdataset
+Requires-Dist: dill
+Requires-Dist: pandas
+Requires-Dist: chumpy@ git+https://github.com/mattloper/chumpy
+Provides-Extra: all
+Requires-Dist: detectron2@ git+https://github.com/facebookresearch/detectron2 ; extra == "all"

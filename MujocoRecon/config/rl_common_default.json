@@ -1,0 +1,6 @@
+{
+    "algorithm": "ppo",
+    "use_openai_baselines": false,
+    "log_episodes": false,
+    "random_seed": null
+}
