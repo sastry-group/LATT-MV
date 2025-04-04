@@ -25,7 +25,7 @@ LATTE-MV is a ***scalable system*** for reconstructing monocular videos of table
 7. [Running on your own video](#running-on-your-own-video)
 8. [Citing this Work](#bibtex)
 
-## Setuo
+## Setup
 
 Make sure you have [Anaconda](https://www.anaconda.com/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) installed. All the conda environments specific to running each step of the pipeling are given in their respective directories. Run the following to install them all:
 
