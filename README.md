@@ -43,7 +43,7 @@ pip install mujoco
 
 
 ## Download dataset
-Download the dataset from [here](https://people.eecs.berkeley.edu/~nimsi/release_data.zip) and unzip it. The dataset should be in the following format:
+Download the dataset from [here](https://huggingface.co/datasets/ember-lab-berkeley/LATTE-MV/resolve/main/release_data.zip?download=true) and unzip it. The dataset should be in the following format:
 
 ```
 release_data/
