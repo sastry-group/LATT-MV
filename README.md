@@ -4,7 +4,7 @@
 
 [[Website]](https://sastry-group.github.io/LATTE-MV/)
 [[PDF]](https://arxiv.org/pdf/2503.20936)
-[[Dataset]](https://people.eecs.berkeley.edu/~nimsi/release_data.zip)
+[[Dataset]](https://huggingface.co/datasets/ember-lab-berkeley/LATTE-MV/tree/main)
 
 <img src="teaser.gif" width="600px"/>
 
