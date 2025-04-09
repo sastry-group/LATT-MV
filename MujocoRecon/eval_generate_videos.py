@@ -1,4 +1,4 @@
-from mujoco_env_danny_skeleton import KukaTennisEnv
+from mujoco_env_skeleton import KukaTennisEnv
 from mujoco_env_only_kuka_ik import KukaTennisEnv as KukaTennisEnvIK
 # from stable_baselines3.common.env_util import SubprocVecEnv
 from stable_baselines3 import PPO

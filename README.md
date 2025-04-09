@@ -47,18 +47,18 @@ Download the dataset from [here](https://people.eecs.berkeley.edu/~nimsi/release
 
 ```
 release_data/
-├── match1
-    ├── match1_3
-        ├── match1_3.mp4 : Original clipped video
-        ├── match1_3_ball.csv : Contains ball tracking results
-        ├── match1_3_keypoints_2d.npy : Contains 2D keypoints for the detected humans
-        ├── match1_3_keypoints_3d.npy : Contains 3D keypoints for the detected humans
-        ├── match1_3_metadata.json : metadata for the detected humans
-        ├── match1_3_paddle.csv : Paddle detection
-        ├── match1_3_table.npy : Detected table corners
-        ├── match1_3_recon.npy : Reconstructed scene info        
-    ├── ...
-├── ...
+├── match1/
+│   ├── match1_3/
+│   │   ├── match1_3.mp4               # Original clipped video
+│   │   ├── match1_3_ball.csv          # Ball tracking results
+│   │   ├── match1_3_keypoints_2d.npy  # 2D keypoints for detected humans
+│   │   ├── match1_3_keypoints_3d.npy  # 3D keypoints for detected humans
+│   │   ├── match1_3_metadata.json     # Metadata for detected humans
+│   │   ├── match1_3_paddle.csv        # Paddle detection results
+│   │   ├── match1_3_table.npy         # Detected table corners
+│   │   ├── match1_3_recon.npy         # Reconstructed scene information
+│   ├── ...
+└── ...
 ```
 
 ## Phase 1: Reconstructing gameplay in 3D
@@ -215,7 +215,7 @@ python3 eval_stats.py
 The statistics will be saved under the same file name as pkl with txt extension. You can also visualize the results for a specific example
 
 ```bash
-python3 visualize.py --idx <idx>
+python3 eval_generate_videos.py --idx <idx>
 ```
 
 This will create and save videos for the 3 cases:- without anticipation, with anticipation and oracle under mujoco_{idx} directory. You can change the idx to visualize other examples. 
@@ -224,7 +224,7 @@ This will create and save videos for the 3 cases:- without anticipation, with an
 For the following steps navigate to the visualize directory in this repo.
 
 ```bash
-cd visualize
+cd Visualize
 ```
 
 ### Visualizing the reconstructed gameplay (phase 1)
