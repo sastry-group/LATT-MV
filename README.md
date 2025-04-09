@@ -25,7 +25,7 @@ LATTE-MV is a ***scalable system*** for reconstructing monocular videos of table
 7. [Running on your own video](#running-on-your-own-video)
 8. [Citing this Work](#bibtex)
 
-## Setuo
+## Setup
 
 Make sure you have [Anaconda](https://www.anaconda.com/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) installed. All the conda environments specific to running each step of the pipeling are given in their respective directories. Run the following to install them all:
 
@@ -43,7 +43,7 @@ pip install mujoco
 
 
 ## Download dataset
-Download the dataset from [here](https://people.eecs.berkeley.edu/~nimsi/release_data.zip) and unzip it. The dataset should be in the following format:
+Download the dataset from [here](https://huggingface.co/datasets/ember-lab-berkeley/LATTE-MV/resolve/main/release_data.zip?download=true) and unzip it. The dataset should be in the following format:
 
 ```
 release_data/
