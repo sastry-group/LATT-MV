@@ -1,0 +1,7 @@
+{
+    "reward_config": "../config/reward_default.json",
+    "hysr_config": "../config/hysr_demos.json",
+    "pam_config": "~/.mpi-is/pam/pam_models/hill.json",
+    "rl_config": "../config/ppo_default.json",
+    "rl_common_config": "../config/rl_common_default.json"
+}

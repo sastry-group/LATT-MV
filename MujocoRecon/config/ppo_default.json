@@ -1,0 +1,19 @@
+{
+    "gamma": 0.9999,
+    "n_steps": 5000,
+    "ent_coef": 7e-06,
+    "learning_rate": 0.00015,
+    "vf_coef": 0.56,   
+    "max_grad_norm": 0.1,
+    "gae_lambda": 1.0,
+    "batch_size": 310,
+    "n_epochs": 34,
+    "clip_range": 0.4,
+    "clip_range_vf": 0.3,
+    "log_path": "/tmp/training_log",
+    "num_timesteps": 500000,
+    "load_path": "",
+    "save_path": "/tmp/model",
+    "num_layers": 1,
+    "num_hidden": 380
+}

@@ -1,0 +1,22 @@
+{
+    "gamma":0.9999,
+    "num_timesteps":500000,
+    "ent_coef":0.001,
+    "lr":1e-3,
+    "vf_coef":0.66023,   
+    "max_grad_norm":0.05,
+    "lam":0.98438,
+    "nminibatches":8,
+    "noptepochs":32,
+    "cliprange":0.4,
+    "network":"mlp",
+    "num_layers":1,
+    "num_hidden":512,
+    "activation":"tf.tanh",
+    "nsteps": 4096,
+    "load_path": null,
+    "save_path": "/tmp/model",
+    "log_interval":1,
+    "save_interval":1,
+    "log_tensorboard": true
+}

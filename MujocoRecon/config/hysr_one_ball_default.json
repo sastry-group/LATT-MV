@@ -1,0 +1,33 @@
+{
+    "real_robot":false,
+    "robot_type":"PAMY2",
+    "save_data":false,
+    "save_folder":"/tmp/",
+    "o80_pam_time_step":0.002,
+    "mujoco_time_step":0.002,
+    "algo_time_step":0.01,
+    "robot_position":[0.0, 0.0, 1.21],
+    "target_position":[0.0,2.5,0.78],
+    "reference_posture":[[15000, 15000], [15000, 15000], [15000, 15000], [15000, 15000]],
+    "world_boundaries":{
+	"min":[0.0,-1.0,0.17],
+	"max":[1.6,3.5,1.5]
+    },
+    "pressure_change_range":18000,
+    "trajectory":-1,
+    "accelerated_time":false,
+    "instant_reset":true,
+    "nb_steps_per_episode":300,
+    "extra_balls_sets":1,
+    "extra_balls_per_set":20,
+    "trajectory_group":"originals",
+    "graphics":true,
+    "graphics_pseudo_real":false,
+    "graphics_simulation":false,
+    "graphics_extra_balls":false,
+    "xterms":false,
+    "frequency_monitoring_episode":true,
+    "frequency_monitoring_step":true,
+    "robot_integrity_check":false,
+    "robot_integrity_threshold":0.6
+}

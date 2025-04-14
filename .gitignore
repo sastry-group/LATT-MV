@@ -1,0 +1,6 @@
+outputs/
+outputs_*
+recons_*
+*/__MACOSX
+RallyReconstructor/recons
+.DS_Store
